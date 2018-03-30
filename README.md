@@ -1,6 +1,6 @@
 # Practice
 
-## 1. Write a script that will get files from 10 to 100 kB and will sort them by size in ascending order.
+## 1. A script that will get files from 10 to 100 kB and will sort them by size in ascending order.
 
 
 ```
@@ -46,4 +46,25 @@ Close connection
 
 ### 4.1 cat nonexistentfile
 
+```
+bash 4_1_cat_nonexist.sh
+```
+
+Check error.txt 
+
+```
+cat error.txt
+```
 ### 4.2 file /sbin/ifconfig
+
+```
+bash 4_2_file_ifconfig.sh
+```
+
+Check output.txt
+
+```
+cat output.txt
+```
+
+

@@ -40,7 +40,11 @@ After that:
 bash 3_temp_loop.sh & 
 ```
 
-Close connection
+Close connection and check loop-process
+
+```
+ps ax | grep temp_loop
+```
 
 ## 4. Issue the following commands as a non-privileged user. Determine standard input, output and error for each command.
 
@@ -66,5 +70,7 @@ Check output.txt
 ```
 cat output.txt
 ```
+
+### 4.3 grep root /etc/passwd /etc/nofiles > grepresults
 
 

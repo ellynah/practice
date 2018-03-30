@@ -21,12 +21,6 @@ Check your tmux version
 ```
 tmux -v
 ```
-
-Or install tmux
-
-```
-sudo apt-get install tmux
-```
 Connect with ssh and tmux (where user is user with cloned project)
 
 ```
@@ -73,4 +67,18 @@ cat output.txt
 
 ### 4.3 grep root /etc/passwd /etc/nofiles > grepresults
 
+```
+bash 4_3_grep.sh
+```
 
+### 4.4 /etc/init.d/sshd start > /var/tmp/output
+
+```
+bash 4_4_start.sh
+```
+
+### 4.5 /etc/init.d/crond start > /var/tmp/output 2>&1
+
+```
+bash 4_5_start.sh
+```
